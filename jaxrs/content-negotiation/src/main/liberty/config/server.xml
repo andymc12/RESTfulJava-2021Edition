@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="${project.name}">
+
+    <featureManager>
+        <feature>restfulWS-3.0</feature>
+        <feature>jsonb-2.0</feature>
+        <feature>xmlBinding-3.0</feature>
+    </featureManager>
+    
+
+    <httpEndpoint id="defaultHttpEndpoint"
+                  httpPort="9080"
+                  httpsPort="9443"/>
+
+    <webApplication location="${project.name}.war" contextRoot="${app.context.root}" />
+</server>
