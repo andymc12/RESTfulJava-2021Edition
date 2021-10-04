@@ -1,0 +1,6 @@
+!!net.andymc12.restfuljava.content.Person {
+  age: 43,
+  favoriteColor: BLUE,
+  firstName: Andy,
+  lastName: McCright
+}
